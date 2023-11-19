@@ -1,0 +1,32 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Unica+One&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Unica One', sans-serif;
+}
+
+:root{
+    --background:#000000;
+    --primary-color:#C9ADA7;
+    --button-color1:#FFFFFF;
+    --button-color2:#F4ACB7;
+
+    --background2:#9D8189;
+    
+    --pc-large:80px;
+    --pc-medium:40px;
+    --pc-small:20px;
+}
+
+.section_padding
+{
+    padding:7rem;
+}
+
+.section_margin
+{
+    margin:2rem;
+}
+ */

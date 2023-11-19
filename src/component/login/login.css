@@ -1,0 +1,108 @@
+/* ./component/Login.css */
+/* @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&family=Unica+One&display=swap'); */
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('path/to/proxima-nova-regular.woff2') format('woff2'), /* Update the path to the actual font file */
+       url('path/to/proxima-nova-regular.woff') format('woff'); /* Update the path to the actual font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova SemiBold';
+  src: url('path/to/proxima-nova-semibold.woff2') format('woff2'), /* Update the path to the actual font file */
+       url('path/to/proxima-nova-semibold.woff') format('woff'); /* Update the path to the actual font file */
+  font-weight: 600; /* Adjust the font weight to match the semi-bold weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('path/to/proxima-nova-bold.woff2') format('woff2'), /* Update the path to the actual font file */
+       url('path/to/proxima-nova-bold.woff') format('woff'); /* Update the path to the actual font file */
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Clarity City';
+  src: url('path/to/clarity-city.woff2') format('woff2'), /* Update the path to the actual font file */
+       url('path/to/clarity-city.woff') format('woff'); /* Update the path to the actual font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  padding:0;
+  margin:0;
+  font-family: 'Proxima Nova SemiBold', sans-serif;
+}
+
+.loginbox
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: auto;
+    background-color: #F9F9F9;
+}
+
+.login_container 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:50%;
+    width:35%;
+    border-radius: 8px;
+    border: 2px solid #000;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 0px 0px #71A894;
+    -webkit-box-shadow: 15px 15px #71A894;
+    -moz-box-shadow: 10px 10px 5px 0px #71A894;
+}
+  
+  h2 {
+    font-family: 'Clarity City', sans-serif;
+    color: #303031;
+    padding: 15px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 15px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #71A894;
+    padding: 10px;
+    width: 100px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #126044;
+  }
+  
