@@ -1,2 +1,7 @@
 export {default as Landing} from '../component/landing/Landing'
 export {default as Login} from '../component/login/Login'
+export {default as Signup} from '../component/signup/Signup'
+export {default as Signup1} from '../component/signup/Signup1'
+export {default as Signup2} from '../component/signup/Signup2'
+export {default as Signup3} from '../component/signup/Signup3'
+export {default as Login1} from '../component/login/Login1'

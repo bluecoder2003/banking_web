@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './signup.css';
+import './signup1.css';
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -25,26 +25,18 @@ const Login = () => {
   };
 
   return (
-    <div className="signupbox">
-    <div className="signup_container">
+    <div className="signup1box">
+    <div className="signup1_container">
       <h2>SIGN UP</h2>
       <form onSubmit={handleSubmit}>
-        <label>
-          <input
-            type="text"
-            value={username}
-            onChange={handleUsernameChange}
-            placeholder="ENTER NAME"
-            required
-          />
-        </label>
+      <p>ENTER OTP SENT ON YOUR REGISTERED MOBILE NUMBER</p>
         <br />
         <label>
           <input
             type="password"
             value={password}
             onChange={handlePasswordChange}
-            placeholder="ENTER MOBILE NUMBER"
+            placeholder="ENTER OTP"
             required
           />
         </label>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './signup.css';
+import './login1.css';
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -17,7 +17,7 @@ const Login = () => {
     e.preventDefault();
 
     // You can add your authentication logic here
-    console.log('signupg in with:', { username, password });
+    console.log('Logging in with:', { username, password });
 
     // Reset the form after submission (optional)
     setUsername('');
@@ -25,26 +25,19 @@ const Login = () => {
   };
 
   return (
-    <div className="signupbox">
-    <div className="signup_container">
-      <h2>SIGN UP</h2>
+    <div className="login1box">
+    <div className="login1_container">
+      <h2>WELCOME CUST_NAME</h2>
       <form onSubmit={handleSubmit}>
-        <label>
-          <input
-            type="text"
-            value={username}
-            onChange={handleUsernameChange}
-            placeholder="ENTER NAME"
-            required
-          />
-        </label>
+      <p>ENTER OTP SENT ON YOUR REGISTERED
+ MOBILE NUMBER</p>
         <br />
         <label>
           <input
             type="password"
             value={password}
             onChange={handlePasswordChange}
-            placeholder="ENTER MOBILE NUMBER"
+            placeholder="ENTER OTP"
             required
           />
         </label>

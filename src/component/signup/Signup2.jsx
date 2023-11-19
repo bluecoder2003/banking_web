@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './signup.css';
+import './signup2.css';
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -25,8 +25,8 @@ const Login = () => {
   };
 
   return (
-    <div className="signupbox">
-    <div className="signup_container">
+    <div className="signup2box">
+    <div className="signup2_container">
       <h2>SIGN UP</h2>
       <form onSubmit={handleSubmit}>
         <label>
@@ -34,7 +34,7 @@ const Login = () => {
             type="text"
             value={username}
             onChange={handleUsernameChange}
-            placeholder="ENTER NAME"
+            placeholder="ENTER PAN NUMBER"
             required
           />
         </label>
@@ -44,7 +44,7 @@ const Login = () => {
             type="password"
             value={password}
             onChange={handlePasswordChange}
-            placeholder="ENTER MOBILE NUMBER"
+            placeholder="ENTER AADHAAR NUMBER"
             required
           />
         </label>
