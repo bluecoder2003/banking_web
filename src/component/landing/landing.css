@@ -1,0 +1,112 @@
+/* landing.css */
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Proxima Nova SemiBold', sans-serif;
+  }
+  
+  .landing_container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    background-color: #F9F9F9;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+      color: #1b0a0a;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    
+    nav ul {
+        list-style: none;
+        display: flex;
+    }
+    
+    nav ul li {
+        margin-right: 20px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+    }
+    h1 {
+      color: #333333;
+    }
+    
+    p {
+      color: #666666;
+    }
+    
+    a {
+      display: flex;
+      padding: 15px 20px;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+    
+    a:hover {
+      background-color: #71A894;
+    }
+    
+    .auth_buttons {
+      display: flex;
+      gap: 10px;
+    }
+    
+    .auth_buttons a {
+      color: #000;
+      text-decoration: none;
+      padding: 15px 20px;
+      border-radius: 4px;
+      /* background-color: #4caf50; */
+      transition: background-color 0.3s ease;
+      font-family: 'Clarity City', sans-serif;
+    }
+    
+    .auth_buttons a:hover {
+      background-color: #71A894;
+    }
+    
+
+
+
+
+    
+    .landing_content {
+        height: 100vh;
+        background-color: #F9F9F9;
+        display: flex;
+        flex-direction: row;
+    }
+  
+    .text
+    {
+      display: flex;
+      flex-direction: column;
+    }
+  
+
+
+
+  .aboutus {
+    height: 100vh;
+    background-color: #F9F9F9;
+  }
+  
+  h2 {
+    color: #333333;
+  }
+  

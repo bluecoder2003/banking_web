@@ -12,12 +12,12 @@ const App = () => {
   return (
    <>
     <div className="app_container">
-      {/* <Landing/> */}
+      <Landing/>
       {/* <Login/> */}
       {/* <Signup/> */}
       {/* <Signup1/>    */}
       {/* <Signup3/>    */}
-      <Login1/>   
+      {/* <Login1/>    */}
     </div>
    </>
   )
